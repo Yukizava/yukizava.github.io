@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+body{
+    margin: 0;
+    color: white;
+    font-family: 'Noto Sans Mono', monospace;
+}
+a{
+    text-decoration: none;
+    user-select: none;
+}
+span{
+    user-select: none;
+}
+.main{
+    display: flex;
+    height: 100%;
+}
+.left{
+    flex: 20;
+    background: rgb(30,30,30);
+}
+.right{
+    flex: 60;
+    background: rgb(0,0,0);
+}
+.menu{
+    margin-top: 50px;
+    
+}
+#blue{
+    color: rgb(59,116,187);
+}
+#gold{
+    color: rgb(204,185,113);
+}
+#pink{
+    color: rgb(237,127,178);
+}
+#green{
+    color: rgb(57,173,163);
+}
+#gray{
+    color: rgb(88,88,88);
+}
+.m-0{
+    margin: 0;
+}
+.m-1{
+    margin-left: 20px;
+}
+.m-2{
+    margin-left: 40px;
+}
+.m-3{
+    margin-left: 20px;
+}
+.m-4{
+    margin-left: 20px;
+}
+.m-5{
+    margin-left: 20px;
+}
